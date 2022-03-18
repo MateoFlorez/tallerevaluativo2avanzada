@@ -15,7 +15,7 @@ function generarComida(){
         alimentos.push(alimento)
     }
 
-    let filtro = alimentos.filter(alimento => alimento.energia > 200)
+    let filtro = alimentos.filter(alimento => alimento.energia > 200 && alimento.tipo == "Vegetal")
 
     console.log(filtro)
     console.log(filtro.length)
