@@ -1,4 +1,4 @@
-function filtrarPlanoos(n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,buscarPlanos){
+function filtrarPlanos(n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,buscarPlanos){
     setTimeout(function(){
         let planos = [n1,n2,n3,n4,n5,n6,n7,n8,n9,n10]
 
@@ -12,7 +12,7 @@ function filtrarPlanoos(n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,buscarPlanos){
 }
 
 // Llamando a la funcion principal
-filtrarPlanoos(100,20,15,16,40,10,5,1,13,22,function(planos){
+filtrarPlanos(100,20,15,16,40,10,5,1,13,22,function(planos){
     if (planos.length > 0){
         console.log(`Arranque`)
     }
